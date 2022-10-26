@@ -1,0 +1,323 @@
+body {
+    margin: 0%;
+    background-color: #acf0ed;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0 8px;
+}
+
+.inicio {
+    padding: 30px;
+    height: 60%;
+    width: 60%;
+}
+
+.medio {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #5a76c5;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.imagenes {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #5556aa;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.paletas {
+    margin-top: 5px;
+    height: 160px;
+    width: 200px;
+}
+
+.indumentaria {
+    margin-top: 5px;
+    height: 160px;
+    width: 200px;
+}
+
+.accesorios {
+    margin-top: 5px;
+    height: 160px;
+    width: 200px;
+}
+
+.piepagina {
+    display: flex;
+    justify-content: center;
+    background-color: #5556aa;
+    width: 100vw;
+    align-items: center;
+    height: 50px;
+    flex-direction: row;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.redes li a {
+    color: #ffffff;
+    margin: 0 20px;
+}
+
+.redes li a:hover {
+    color: #3CCF4E;
+}
+
+.formulariocontacto {
+    color: #ffffff;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 0 1.5em;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactanos {
+    text-align: center;
+    font-size: 36px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    color: #03045E;
+}
+
+.contac>* {
+    padding: 1em;
+}
+
+.contacform {
+    background-color: #74e781;
+}
+
+.contacform form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contacform p {
+    padding: 1em;
+}
+
+.contacform .block {
+    grid-column: 1 / 3;
+}
+
+.contacform button,
+.contacform input,
+.contacform textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #002B5B;
+    color: #ffffff;
+}
+
+.contacform button {
+    background-color: #002B5B;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    text-align: center;
+}
+
+.contacform button:hover {
+    background-color: #ffffff;
+    color: #0f0f0f;
+}
+
+.contacinfo {
+    background-color: #002B5B;
+}
+
+.contacinfo h4,
+.contacinfo ul,
+.contacinfo p {
+    text-align: left;
+    margin: 0 0 1rem 0;
+    font-size: 15px;
+    padding: 4px;
+}
+
+.contacinfo ul {
+    list-style: none;
+}
+
+.contacinfo ul li {
+    padding: .3em;
+}
+
+@media screen and (min-width: 768px) {
+    .seccion {
+        width: 100vw;
+        height: calc(100vh - 70px);
+    }
+
+    .img1 {
+        width: 15%;
+    }
+
+    .piepagina {
+        display: flex;
+        justify-content: center;
+        background-color: #5556aa;
+        width: 100vw;
+        align-items: center;
+        height: 50px;
+        flex-direction: row;
+    }
+
+    .redes {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        list-style-type: none;
+    }
+
+    .redes li a {
+        color: #ffffff;
+        margin: 0 20px;
+    }
+
+    .redes li a:hover {
+        color: #3CCF4E;
+    }
+
+    .formulariocontacto {
+        color: #ffffff;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        padding: 0 1.5em;
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contactanos {
+        text-align: center;
+        font-size: 36px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        color: #03045E;
+    }
+
+    .contac>* {
+        padding: 1em;
+    }
+
+    .contac {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .contacform {
+        background-color: #74e781;
+    }
+
+    .contacform .form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contacform p {
+        padding: 1em;
+    }
+
+    .contacform .block {
+        grid-column: 1 / 3;
+    }
+
+    .contacform button,
+    .contacform input,
+    .contacform textarea {
+        width: 100%;
+        padding: .7em;
+        border: none;
+        background: none;
+        outline: none;
+        border-bottom: 1px solid #002B5B;
+        color: #ffffff;
+    }
+
+    .contacform button {
+        background-color: #002B5B;
+        border: 0;
+        text-transform: uppercase;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .contacform button:hover {
+        background-color: #ffffff;
+        color: #0f0f0f;
+    }
+
+    .contacinfo {
+        background-color: #002B5B;
+    }
+
+    .contacinfo ul {
+        list-style: none;
+    }
+
+    .contacinfo ul li {
+        padding: .3em;
+    }
+
+    .contacinfo h4,
+    .contacinfo ul,
+    .contacinfo p {
+        text-align: left;
+        margin: 0 0 1rem 0;
+        font-size: 15px;
+        padding: 4px;
+    }
+
+    .seccion {
+        background-color: #acf0ed;
+        width: 100vw;
+        height: calc(100vh - 70px);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0 200px 0 200px;
+    }
+
+    .imagenes {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto auto auto;
+        grid-row-gap: 30px;
+        grid-column-gap: 100px;
+        padding-top: 50px;
+    }
+}
